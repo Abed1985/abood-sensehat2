@@ -1,0 +1,11 @@
+applications:
+- path: .
+  memory: 512M
+  instances: 1
+  domain: mybluemix.net
+  name: abood-sensehat2
+  host: abood-sensehat2
+  disk_quota: 1024M
+  services:
+  - abood-sensehat2-cloudantNoSQLDB
+  - abood-sensehat2-iotf-service
